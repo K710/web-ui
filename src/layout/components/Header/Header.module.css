@@ -1,0 +1,88 @@
+.headerPage {
+    background-color: #f97a1c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 144px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 15px 0;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.boxLogo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxLogoLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 73px;
+    height: 73px;
+    display: block;
+}
+
+.boxMenu {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.menuItem {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 70px 8px 70px;
+    border-radius: 20px 20px 0 0;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+    display: inline-block;
+    line-height: 1.2;
+    position: relative;
+}
+
+.active {
+    background: #fff;
+    color: #f97a1c;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.03);
+    z-index: 2;
+}
+
+.menuItem:not(.active):hover {
+    opacity: 0.85;
+}
+
+.boxUser {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.btnLogin {
+    padding: 7px 32px;
+    background-color: #fff;
+    border-radius: 24px;
+    color: #f97a1c;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.63px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    min-width: 160px;
+    text-align: center;
+}

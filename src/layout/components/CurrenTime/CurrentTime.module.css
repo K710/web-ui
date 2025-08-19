@@ -1,0 +1,25 @@
+.boxUserDate {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.42px;
+}
+
+span:last-child {
+    text-transform: capitalize;
+}
+
+.line {
+    height: 64.6%;
+    width: 1px;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 10px;
+}

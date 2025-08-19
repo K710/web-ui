@@ -1,0 +1,104 @@
+.rightPage {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    padding: 0 0 16px 0;
+    width: 370px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bannerImg {
+    width: 100%;
+    display: block;
+}
+
+.tabRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #f5f5f5;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 8px;
+}
+
+.tabActive {
+    font-weight: normal;
+    color: #000;
+    font-size: 16px;
+}
+
+.dropdown {
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-right: 12px;
+}
+
+.info {
+    flex: 1;
+}
+
+.phone {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.subPhone {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.time {
+    color: #888;
+    font-size: 13px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 15px;
+    font-weight: 500;
+    color: #f97a1c;
+    min-width: 60px;
+}
+
+.stars {
+    color: #ff2222;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+}

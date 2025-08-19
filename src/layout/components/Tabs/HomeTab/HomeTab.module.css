@@ -1,0 +1,169 @@
+.homeTab {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    border-bottom: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannerImg {
+    width: 100%;
+    display: block;
+}
+
+.banner::after {
+    position: absolute;
+    content: "";
+    top: 290px;
+    right: 500px;
+    width: 25px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #afafaf;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    margin-bottom: 24px;
+    padding: 12px 24px 32px 24px;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+}
+
+.cardLink {
+    color: #164fe2;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardBody {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.productImgCol {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productImg {
+    width: 180px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #f5f5f5;
+    margin-bottom: 16px;
+}
+
+.productThumbs {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.thumb,
+.thumbActive {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1.5px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.thumbActive {
+    border: 2px solid #f97a1c;
+}
+
+.thumb img,
+.thumbActive img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.productInfoCol {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.productName {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.productDesc {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.productPrice {
+    font-size: 35px;
+    font-weight: 800;
+    color: #222;
+    margin: 8px 0;
+}
+
+.productTimeLabel {
+    color: #888;
+    font-size: 15px;
+}
+
+.productTime {
+    color: #16c60c;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.bidBtn {
+    background: #f97a1c;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 8px;
+    margin-top: 12px;
+    transition: background 0.2s;
+}
+
+.bidBtn:hover {
+    background: #ee914a;
+}
+
+.bidIcon {
+    font-size: 22px;
+}
